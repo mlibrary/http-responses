@@ -6,6 +6,7 @@ module.exports = {
     description: '',
     author: 'Jon Earley <earley@umich.edu>',
   },
+  pathPrefix: "/http-responses",
   plugins: [
     {
       resolve: `gatsby-mdx`,

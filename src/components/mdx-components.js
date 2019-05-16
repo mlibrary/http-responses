@@ -31,10 +31,6 @@ function slug(item) {
   return slugger.slug(item)
 }
 
-const maxWidth = {
-  maxWidth: '38rem'
-}
-
 const Heading2 = ({ children, ...other }) => (
   <Heading
     level={2}
@@ -63,9 +59,7 @@ const Heading6 = ({ children, ...other }) => (
   <Heading level={6} size="2XS" id={slug(children)} {...other}>{children}</Heading>
 )
 const P = ({ children, ...other }) => (
-  <Text {...other} style={{
-    ...maxWidth
-  }}>{children}</Text>
+  <Text {...other}>{children}</Text>
 )
 
 const EM = styled('em')({

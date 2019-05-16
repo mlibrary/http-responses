@@ -35,6 +35,29 @@ Use the now.sh to stage the site and get a url to share.
 npm run stage
 ```
 
+## Adding and making changes to responses
+
+Enter the `src/pages` dir and edit an existing page or add a new page. Each page is written as markdown.
+
+```sh
+cd src/pages/
+...
+```
+
+`title` and `code` frontmatter is required.
+
+### Example
+
+```md
+/404.mdx
+---
+title: Page not found
+code: 404
+---
+
+We are unable to find this page.
+```
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://next.gatsbyjs.org/). Here are some places to start:

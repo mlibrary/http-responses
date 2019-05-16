@@ -49,7 +49,7 @@ cd src/pages/
 ### Example
 
 ```md
-/404.mdx
+//404.mdx
 ---
 title: Page not found
 code: 404

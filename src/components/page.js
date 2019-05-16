@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Heading,
   SPACING,
-  Margins,
   COLORS
 } from '@umich-lib/core'
 import styled from '@emotion/styled'
@@ -24,29 +23,27 @@ const Page = (props) => {
 
   return (
     <Layout>
-      <SEO title={title} />
-      <Margins>
-        <article css={{ maxWidth: '38rem' }}>
-          <Heading
-            level={1}
-            size="3XL"
-            css={{
-              paddingBottom: SPACING['M'],
-              marginTop: SPACING['2XL']
-            }}
-          >
-            {code && (<span css={{
-              fontSize: '66%',
-              display: 'block',
-              color: COLORS.neutral['300']
-            }}>{code}</span>)}
-            {title}
-          </Heading>
-          <Prose>
-            {props.children}
-          </Prose>
-        </article>
-      </Margins>
+      <SEO title={code + ': ' + title} />
+      <article css={{ maxWidth: '38rem' }}>
+        <Heading
+          level={1}
+          size="3XL"
+          css={{
+            paddingBottom: SPACING['M'],
+            marginTop: SPACING['2XL']
+          }}
+        >
+          {code && (<span css={{
+            fontSize: '66%',
+            display: 'block',
+            color: COLORS.neutral['300']
+          }}>{code}</span>)}
+          {title}
+        </Heading>
+        <Prose>
+          {props.children}
+        </Prose>
+      </article>
     </Layout>
   )
 }

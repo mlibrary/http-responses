@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'HTTP responses | University of Michigan',
+    title: 'University of Michigan Library',
     description: '',
     author: 'Jon Earley <earley@umich.edu>',
   },

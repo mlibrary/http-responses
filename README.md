@@ -1,6 +1,6 @@
 # HTTP responses
 
-A simple site for rendering pages relating to HTTP response status codes.
+A site for rendering public pages relating to HTTP response status codes.
 
 ## 🚀 Quick start
 
@@ -49,7 +49,6 @@ cd src/pages/
 ### Example
 
 ```md
-/404.mdx
 ---
 title: Page not found
 code: 404

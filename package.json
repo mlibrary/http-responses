@@ -1,7 +1,7 @@
 {
   "name": "@umich-lib/http-responses",
   "description": "",
-  "version": "1.0.0-alpha.7",
+  "version": "0.1.0",
   "author": "Jon Earley <earleyj@umich.edu>",
   "private": true,
   "dependencies": {

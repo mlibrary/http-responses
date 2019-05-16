@@ -11,7 +11,6 @@ import {
   Link,
   LINK_STYLES
 } from '@umich-lib/core'
-import Table from './Table'
 
 /*
   Attempted to use MDX Component Autolink Header,
@@ -69,10 +68,6 @@ const P = ({ children, ...other }) => (
   }}>{children}</Text>
 )
 
-const TableContainer = styled('div')({
-  overflowX: 'auto'
-})
-
 const EM = styled('em')({
   fontStyle: 'italic'
 })
@@ -112,7 +107,6 @@ export default {
   p: P,
   ul: props => <List type="bulleted" {...props} />,
   ol: props => <List type="numbered" {...props} />,
-  table: (props) => <TableContainer><Table {...props} /></TableContainer>,
   em: EM,
   strong: (props) => <strong style={{ fontWeight: '800' }} {...props} />,
   blockquote: (props) => (

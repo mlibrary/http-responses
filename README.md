@@ -1,6 +1,6 @@
 # HTTP responses
 
-A site for rendering pages relating to HTTP response status codes.
+A site for rendering public pages relating to HTTP response status codes.
 
 ## 🚀 Quick start
 

@@ -7,3 +7,4 @@ branches:
 before_script: npm install
 script: npm run deploy
 skip_cleanup: true
+github_token: $GITHUB_TOKEN

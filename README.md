@@ -35,7 +35,7 @@ Use the now.sh to stage the site and get a url to share.
 npm run stage
 ```
 
-## Adding and making changes to responses
+## Making changes
 
 Enter the `src/pages` dir and edit an existing page or add a new page. Each page is written as markdown.
 
@@ -45,6 +45,10 @@ cd src/pages/
 ```
 
 `title` and `code` frontmatter is required.
+
+## Deployment
+
+Changes to master will trigger a deploy to Github Pages via Travis.
 
 ### Example
 

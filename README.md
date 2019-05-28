@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mlibrary/http-responses.svg?branch=master)](https://travis-ci.org/mlibrary/http-responses)
+
 # HTTP responses
 
 A site for rendering public pages relating to HTTP response status codes.

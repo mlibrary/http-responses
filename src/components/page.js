@@ -53,7 +53,7 @@ const Page = (props) => {
               {code && (<span css={{
                 fontSize: '66%',
                 display: 'block',
-                color: COLORS.neutral['300']
+                color: COLORS.coral['400']
               }}>{code}</span>)}
               {title}
             </Heading>

@@ -4,7 +4,7 @@
 
 A site for rendering public pages relating to HTTP response status codes.
 
-**503**: https://mlibrary.github.io/http-responses/
+**503**: https://mlibrary.github.io/http-responses/503
 
 ## 🚀 Quick start
 
